@@ -21,8 +21,8 @@ Usage
 -----
 There are 3 ways to generate a shortlink:
 
-1 When you publish a post or a page
-2 When you update a published post or page
-3 When you view a post or a page that use this code
+1. When you publish a post or a page
+2. When you update a published post or page
+3. When you view a post or a page that use this code
 
 	<?php echo wp_get_shortlink(); ?>
