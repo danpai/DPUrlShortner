@@ -6,7 +6,7 @@
 /*
 Plugin Name: DP URL Shortner
 Plugin URI: http://www.differentplace.net/
-Description: Create short URLs for your posts and pages using several services (only Google at this time)
+Description: Create short URLs for your posts and pages using several services (only Google and bit.ly at this time)
 Author: Danilo Paissan
 Version: 0.1
 Author URI: http://danilopaissan.net
