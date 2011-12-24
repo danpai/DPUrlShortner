@@ -13,6 +13,10 @@ Known Issues
 ###Rel. 0.1
 * At this moment the only supported services are Bitly.com and Google URL Shortner
 
+Prerequisites
+-------------
+* WordPress 3.3 or higher
+
 Installation
 ------------
 Copy the folder DPUrlShortner and its content into <your blog>/wp-content/plugins
