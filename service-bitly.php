@@ -21,7 +21,7 @@ function dpus_get_short_url_from_bitly($post_id){
 	$longurl = "longUrl=" . urlencode($permalink);
 	$format = "format=json";
 	$url = $url . "?" . $login . "&" . $apikey . "&" . $longurl . "&" . $format;
-	$result = $http->request($url, array( 'method' => 'GET'));
+	$result = $http->request($url, array( 'method' => 'GET','sslverify' => false));
 	$result = json_decode($result['body']);
 	$shortlink = $result->data->url;
 	if ($result->status_code == 200) {

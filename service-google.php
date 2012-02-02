@@ -22,7 +22,7 @@ function dpus_get_short_url_from_google($post_id){
 	else{
 		$url = "https://www.googleapis.com/urlshortener/v1/url?key=" . $key;
 	}
-	$result = $http->request($url, array( 'method' => 'POST', 'body' => '{"longUrl": "' . $permalink . '"}', 'headers' => $headers));
+	$result = $http->request($url, array( 'method' => 'POST', 'body' => '{"longUrl": "' . $permalink . '"}', 'headers' => $headers,'sslverify' => false));
 	$result = json_decode($result['body']);
 	$shortlink = $result->id;
 

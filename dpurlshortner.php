@@ -1,14 +1,14 @@
 <?php
 /**
- * @package DPURLShortner
- * @version 0.1
+ * @package dpurlshortner
+ * @version 0.2
  */
 /*
 Plugin Name: DP URL Shortner
-Plugin URI: http://www.differentplace.net/
+Plugin URI: https://github.com/danpai/DPUrlShortner
 Description: Create short URLs for your posts and pages using several services (only Google and bit.ly at this time)
 Author: Danilo Paissan
-Version: 0.1
+Version: 0.2
 Author URI: http://danilopaissan.net
 License: W3C Software Notice and License 
 

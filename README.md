@@ -7,6 +7,10 @@ Versions
 --------
 ###Rel. 0.1
 This version is released only for testing purposes. It can be used as long as you know what you are doing.
+###Rel. 0.2
+This version bypass the error
+
+	SSL certificate problem, verify that the CA cert is OK. Details: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
 
 Known Issues
 ------------
@@ -15,7 +19,7 @@ Known Issues
 
 Prerequisites
 -------------
-* WordPress 3.3 or higher
+* WordPress 3 or higher
 
 Installation
 ------------
